@@ -1,0 +1,8 @@
+# Force GitHub to recognize JSX/TSX files as React
+*.jsx linguist-language=JavaScript
+*.tsx linguist-language=TypeScript
+
+# Exclude build files from language stats
+dist/* linguist-vendored
+node_modules/* linguist-vendored
+*.css linguist-vendored=false
