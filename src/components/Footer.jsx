@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <div className={
-            "text-center py-4 capitalize w-full  mt-auto bg-gray-900 border-t border-gray-700/50 "
+            "text-center py-4 capitalize w-full bg-gray-900 border-t border-gray-700/50 "
         }>
             <a href="https://github.com/shekgit/contact-card"
                className={

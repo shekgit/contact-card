@@ -1,7 +1,7 @@
 # Contact Card - Phone Book Application
 
 ## 🌐 Live Demo
-[![Live Demo](https://img.shields.io/badge/Visit_Live_Site-000?style=for-the-badge&logo=github&logoColor=white)](#)
+[![Live Demo](https://img.shields.io/badge/Visit_Live_Site-000?style=for-the-badge&logo=github&logoColor=white)](https://contact-card-olive.vercel.app/)
 
 ## Project Preview
 
@@ -20,11 +20,12 @@ A modern contact management application built with React and Tailwind CSS. Manag
 **Frontend:** React 19 | JavaScript ES6+  
 **Build Tool:** Vite | npm  
 **Styling:** Tailwind CSS  
-**Deployment:** GitHub Pages
+**Deployment:** Vercel
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Key Features
 - Form validation for name, email, and 10-digit phone number
@@ -40,6 +41,7 @@ A modern contact management application built with React and Tailwind CSS. Manag
 3. **Contact Creation**: Each contact gets a unique ID and timestamp
 4. **Contact Management**: View all contacts in responsive grid, delete as needed
 5. **Responsive Layout**: Adapts to different screen sizes automatically
+6. **Dynamic Height**: Adjusts layout based on number of contacts
 
 ## Components Structure
 - **Contact.jsx** - Main contact manager component with form and contact list
@@ -84,6 +86,8 @@ npm run build
 # Preview production build
 npm run preview
 ```
+## Deployment
+Deployed on **Vercel** with automatic CI/CD. Every push to main branch triggers a new deployment.
 
 ## Project Structure
 ```
