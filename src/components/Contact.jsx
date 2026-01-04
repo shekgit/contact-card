@@ -56,7 +56,7 @@ const Contact = () => {
     };
 
     return (
-        <div className={`bg-gray-900 text-white p-6 ${allUsers.length < 3 ? 'min-h-0' : 'min-h-screen'}`}>
+        <div className={`bg-gray-900 text-white p-6 min-h-screen`}>
             <h1 className="text-4xl font-bold text-center uppercase tracking-wider p-8
                            bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">
                 📞 Phone Book
