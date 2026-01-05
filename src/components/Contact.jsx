@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -8,6 +8,16 @@ const Contact = () => {
     });
 
     const [allUsers, setAllUsers] = useState([]);
+
+    useEffect(() => {
+        const savedUsers = localStorage.getItem("phoneBookUsers");
+        if(savedUsers) {
+            setAllUsers(JSON.parse(savedUsers));
+        }
+    }, [])
+    useEffect(() => {
+        localStorage.setItem("phoneBookUsers", JSON.stringify(allUsers));
+    },[allUsers]);
 
     // input handler
     const handleInputChange = (e) => {
